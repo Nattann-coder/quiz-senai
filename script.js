@@ -1,3 +1,12 @@
+const musicaFundo = new Audio("audio/musica.mp3")
+musicaFundo.loop = true
+musicaFundo.volume = 0.4
+
+document.addEventListener("click", () => {
+
+musicaFundo.play()
+
+}, { once: true })
 const personagens = [
 
 "imagens/sonic-character.png",
@@ -217,4 +226,5 @@ mostrarPergunta()
 
 
 mostrarPergunta()
+
 
