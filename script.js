@@ -22,14 +22,14 @@ c:0
 
 {
 q:"Qual rio é chamado de Velho Chico?",
-a:["Parnaíba","São Francisco","Jaguaribe","Capibaribe"],
-c:1
+a:["Parnaíba","Jaguaride","São Francisco","Capibaribe"],
+c:2
 },
 
 {
 q:"Qual festa cultural movimenta o Nordeste?",
-a:["Festa Junina","Natal","Carnaval de Veneza","Oktoberfest"],
-c:0
+a:["Oktoberfest","Natal","Carnaval de Veneza","Festa Junina"],
+c:3
 },
 
 {
@@ -214,5 +214,6 @@ return
 mostrarPergunta()
 
 }
+
 
 mostrarPergunta()
