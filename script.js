@@ -1,4 +1,4 @@
-const musicaFundo = new Audio("audio/musica.mp3")
+const musicaFundo = new Audio("audio/musica1.mp3")
 musicaFundo.loop = true
 musicaFundo.volume = 0.4
 
@@ -226,5 +226,6 @@ mostrarPergunta()
 
 
 mostrarPergunta()
+
 
 
